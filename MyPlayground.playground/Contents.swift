@@ -1,18 +1,7 @@
+import Foundation
+var countTimer: Timer
+
+var counter = 36
 
 
-func greeting1(){
-    print("Hello")
-    
-}
-
-func greeting2(){
-    print("Hey")
-}
-
-greeting1()
-greeting2()
-
-
-func greeting3(){
-    
-}
+class func scheduledTimer(withTimeInterval: 1, repeats: false, block: (NSTimer) -> Void) -> 60
